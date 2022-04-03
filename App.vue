@@ -1,5 +1,9 @@
 <template>
+  <div>
+      <img alt="Vue logo" align="center" height="100" src="./assets/botify.png" />
+  </div>
   <div class="home">
+
     <!--p> {{ vari }}</p>
     <p> {{ varilx }}</p>
     <button v-on:click="readFile('/Users/alexandermathieu/test2.txt')"> click read</button>
@@ -56,7 +60,9 @@ export default {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
+  color: #000000;
+  margin-top: 10px;
+
+
 }
 </style>

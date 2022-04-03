@@ -50,7 +50,7 @@ h1 {
 }
 
 .account {
-  background-color: lightblue;
+  background-color: rgb(27, 215, 96);
   padding: 8px;
   margin: 8px;
 }

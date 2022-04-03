@@ -40,7 +40,7 @@ class Account {
 
 let accountsArray = new Array();
 
-for (let i = 0; i < accountsList.spotify.length - 3; i++){
+for (let i = 0; i < accountsList.spotify.length; i++){
   accountsArray[i] = new Account(accountsList.spotify[i].email, accountsList.spotify[i].passwort, playlistsList.spotify);
 }
 
